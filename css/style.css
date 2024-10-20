@@ -1,0 +1,141 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* conteiner styles */
+.conteiner {
+  width: min(100%, 1440px);
+  margin: auto;
+  /* display: flex; */
+  /* background-color: aqua; */
+}
+/* header styles */
+.header_class {
+  background-color: #284069;
+  padding: 53px 98px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+/* a tag styles */
+.logo_link {
+  width: 54px;
+  height: 54px;
+}
+/* img styles */
+.logo_img {
+  width: 100%;
+  height: 100%;
+}
+/* header nav styles */
+/* .head_nav {
+  background-color: aqua;
+ 
+} */
+/* nav ul styles */
+.head_nav_ul {
+  display: flex;
+}
+.li_margin {
+  margin-inline: 46px;
+}
+/* nav li styles */
+.active,
+.inactive {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.58px;
+  color: #ddeaf8;
+}
+.active {
+  color: #e29770;
+}
+/* user icon style */
+.icon_class {
+  font-size: 40px;
+  color: #ffffff;
+}
+/* main section styles */
+.main_sec {
+  /* background-color: blueviolet; */
+  margin: 94px 98px;
+}
+
+.main_sec_header {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  color: #942c0d;
+}
+
+.second_sec {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+  flex-wrap: wrap;
+  gap: 30px 22px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  row-gap: 30px;
+  width: 400px;
+  height: 354px;
+  border-radius: 10px;
+  background-color: #ddeaf8;
+  padding: 30px;
+}
+
+.card_img {
+  width: 100%;
+  height: 220px;
+}
+.card_button {
+  width: 145px;
+  height: 44px;
+  background-color: #e29770;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+/* footer content styles */
+.footer_tag {
+  background-color: #284069;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+}
+.footer_header {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+/* .footer_nav{
+ 
+  
+  background-color: aquamarine;
+ 
+} */
+.nav_ul {
+  display: flex;
+  gap: 32px;
+}
+.nav_icon {
+  font-size: 18px;
+  height: 18px;
+  color: #e29770;
+}
